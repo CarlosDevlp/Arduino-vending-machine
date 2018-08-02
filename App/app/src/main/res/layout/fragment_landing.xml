@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="carlos.demo.com.avmachine.View.LandingFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:text="@string/greetings" />
+
+    <TextView
+        android:id="@+id/txt_note1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="@color/text"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:text="Pasa tu tarjeta por el scanner para continuar..." />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/icon_card"/>
+
+
+
+
+    <!--Imagen como botón para entrar al formulario de agregar más tarjetas-->
+
+    <ImageView
+        android:id="@+id/btn_add_cards"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/icon_card_plus"/>
+
+</RelativeLayout>

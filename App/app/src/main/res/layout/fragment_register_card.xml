@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="carlos.demo.com.avmachine.View.RegisterCardFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:text="Registra tu nueva card" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:textSize="23sp"
+        android:textColor="@color/text2"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:text="1. Ingresa tu nombre" />
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:singleLine="true"
+        android:layout_gravity="end"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="30dp"
+        android:textSize="23sp"
+        android:textColor="@color/text2"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:text="2. Pasa tu tarjeta por el scanner" />
+
+    <EditText
+        android:id="@+id/edt_card_uid"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="end"
+        android:singleLine="true"
+        android:enabled="false"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="30dp"
+        android:textSize="23sp"
+        android:textColor="@color/text2"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:text="3. Elige tu crédito" />
+
+    <EditText
+        android:id="@+id/edt_credit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:inputType="number"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="40dp"
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:text="Registrar"/>
+
+</FrameLayout>

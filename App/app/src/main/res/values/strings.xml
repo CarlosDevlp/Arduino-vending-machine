@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Arduino Vending Machine</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register_vending_machine">RegisterVendingMachine</string>
+    <string name="title_activity_main_view_activiy">ArduinoVendingMachine</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Landing-->
+    <string name="greetings">Bienvenidos a ArduinoVendingMachine</string>
+    <!--Register vending-->
+    <string name="item1">Caramelo Bambi (S/. 0.10)</string>
+    <string name="item2">Halls Mentho Lyptus (S/. 0.10)</string>
+    <string name="item3">Chiclets Adams (S/. 0.20)</string>
+
+    <!--dominio de webservice-->
+    <string name="web_ervice_dominio">http://www.portal-estrategico.tk/avm/api</string>
+</resources>
